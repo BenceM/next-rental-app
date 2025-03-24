@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { NAVBAR_HEIGHT } from "../_lib/constants";
 import Image from "next/image";
-import { Button } from "@/components/ui/button";
+import { Button } from "@/shadcn/components/ui/button";
 
 export default function NavBar() {
 	return (
