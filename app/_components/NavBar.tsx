@@ -40,15 +40,15 @@ export default function NavBar() {
 					<Link href="/signin">
 						<Button
 							variant="outline"
-							className="text-white border-white bg-transparent hover:text-primary-700 hover:bg-white rounded-lg duration-300"
+							className="text-white border-white bg-transparent hover:text-primary-700 hover:bg-white rounded-lg duration-300 p-2"
 						>
 							Sign In
 						</Button>
 					</Link>
 					<Link href="/signup">
 						<Button
-							variant="outline"
-							className="text-white hover:bg-secondary-600 bg-secondary-700 hover:text-white rounded-lg duration-300"
+							variant="secondary"
+							className="text-white hover:bg-secondary-600 bg-secondary-700 hover:text-white rounded-lg duration-300 p-2"
 						>
 							Sign Up
 						</Button>
